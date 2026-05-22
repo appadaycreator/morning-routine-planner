@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://appadaycreator.github.io/morning-routine-planner/sitemap.xml
