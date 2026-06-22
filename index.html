@@ -54,23 +54,23 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Inter', 'Noto Sans JP', sans-serif; background: #f8fafc; min-height: 100vh; color: #333; line-height: 1.6; }
         /* V1: ヘッダー縮小でメインコンテンツを即可視化 */
-        .site-header { background: #9333EA; color: white; padding: 14px 20px; text-align: center; }
+        .site-header { background: #4A90E2; color: white; padding: 14px 20px; text-align: center; }
         .site-header .emoji { font-size: 34px; margin-bottom: 4px; }
         .site-header h1 { font-size: 21px; font-weight: 700; margin-bottom: 5px; }
         .site-header p { font-size: 14px; opacity: 0.9; }
         .container { max-width: 800px; margin: 0 auto; padding: 16px; }
         .card { background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 16px; }
-        .btn { background: #9333EA; color: white; border: none; padding: 14px 24px; border-radius: 10px; font-size: 16px; font-weight: 600; cursor: pointer; width: 100%; transition: opacity .2s; min-height: 48px; touch-action: manipulation; }
+        .btn { background: #4A90E2; color: white; border: none; padding: 14px 24px; border-radius: 10px; font-size: 16px; font-weight: 600; cursor: pointer; width: 100%; transition: opacity .2s; min-height: 48px; touch-action: manipulation; }
         .btn:hover { opacity: 0.9; }
         .btn:active { transform: scale(0.98); }
-        .btn:focus-visible { outline: 3px solid #9333EA; outline-offset: 3px; }
+        .btn:focus-visible { outline: 3px solid #4A90E2; outline-offset: 3px; }
         input, select, textarea { width: 100%; padding: 10px 14px; border: 1.5px solid #e2e8f0; border-radius: 8px; font-size: 15px; margin-top: 4px; font-family: inherit; min-height: 44px; }
-        input:focus, select:focus, textarea:focus { outline: none; border-color: #9333EA; box-shadow: 0 0 0 3px #9333EA22; }
+        input:focus, select:focus, textarea:focus { outline: none; border-color: #4A90E2; box-shadow: 0 0 0 3px #4A90E222; }
         label { font-size: 13px; font-weight: 600; color: #555; display: block; margin-top: 14px; margin-bottom: 2px; }
         .result { display: none; }
         .result.show { display: block; }
-        .result-value { font-size: 36px; font-weight: 700; color: #9333EA; text-align: center; padding: 16px 0; }
-        .badge { display: inline-block; background: #9333EA20; color: #9333EA; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+        .result-value { font-size: 36px; font-weight: 700; color: #4A90E2; text-align: center; padding: 16px 0; }
+        .badge { display: inline-block; background: #4A90E220; color: #4A90E2; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
         .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
         @media (max-width: 480px) {
             .site-header { padding: 10px 14px; }
@@ -83,21 +83,21 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
         /* ── サービス固有CSS ── */
 
         .routine-table { width:100%; border-collapse:collapse; margin-top:12px; font-size:14px; }
-        .routine-table th { background:#9333EA; color:#fff; padding:8px 10px; text-align:left; }
+        .routine-table th { background:#4A90E2; color:#fff; padding:8px 10px; text-align:left; }
         .routine-table td { padding:8px 10px; border-bottom:1px solid #e5e7eb; }
         .routine-table tr:last-child td { border-bottom:none; }
         .routine-table tr:nth-child(even) td { background:#FAF5FF; }
-        .task-tag { display:inline-block; background:#F3E8FF; color:#9333EA; border-radius:12px; padding:2px 8px; font-size:12px; margin-right:4px; }
-        .time-col { font-weight:700; color:#9333EA; white-space:nowrap; }
+        .task-tag { display:inline-block; background:#eaf4ff; color:#4A90E2; border-radius:12px; padding:2px 8px; font-size:12px; margin-right:4px; }
+        .time-col { font-weight:700; color:#4A90E2; white-space:nowrap; }
         .checkbox-row { display:flex; align-items:center; gap:10px; padding:8px 0; border-bottom:1px solid #f0e6ff; }
         .checkbox-row:last-child { border-bottom:none; }
-        .checkbox-row input[type=checkbox] { width:16px; height:16px; accent-color:#9333EA; cursor:pointer; }
+        .checkbox-row input[type=checkbox] { width:16px; height:16px; accent-color:#4A90E2; cursor:pointer; }
         .checkbox-row label { font-size:14px; color:#444; cursor:pointer; }
-        .section-label { font-size:12px; font-weight:700; color:#9333EA; margin:14px 0 4px; text-transform:uppercase; letter-spacing:.05em; }
+        .section-label { font-size:12px; font-weight:700; color:#4A90E2; margin:14px 0 4px; text-transform:uppercase; letter-spacing:.05em; }
         /* M8: タスク入力ヒント・ツールチップ */
-        .task-hint { font-size:11px; color:#7c3aed; margin:4px 0 0 28px; line-height:1.5; }
+        .task-hint { font-size:11px; color:#357abd; margin:4px 0 0 28px; line-height:1.5; }
         .tip-wrap { position:relative; display:inline-flex; align-items:center; }
-        .tip-icon { display:inline-flex; align-items:center; justify-content:center; width:16px; height:16px; background:#ede9fe; color:#7c3aed; border-radius:50%; font-size:10px; font-weight:700; cursor:help; border:1px solid #ddd6fe; padding:0; line-height:1; flex-shrink:0; margin-left:4px; vertical-align:middle; }
+        .tip-icon { display:inline-flex; align-items:center; justify-content:center; width:16px; height:16px; background:#eaf4ff; color:#357abd; border-radius:50%; font-size:10px; font-weight:700; cursor:help; border:1px solid #d3e7fb; padding:0; line-height:1; flex-shrink:0; margin-left:4px; vertical-align:middle; }
         .tip-wrap:hover .tip-popup, .tip-icon:focus ~ .tip-popup { opacity:1; visibility:visible; }
         .tip-popup { position:absolute; left:50%; transform:translateX(-50%); top:calc(100% + 6px); background:#1e293b; color:#f8fafc; font-size:11px; padding:8px 10px; border-radius:8px; z-index:300; opacity:0; visibility:hidden; transition:opacity .2s; pointer-events:none; width:210px; line-height:1.6; font-weight:400; box-shadow:0 4px 16px rgba(0,0,0,.25); }
         /* M2: 残り時間インジケーター */
@@ -254,7 +254,7 @@ input[type="range"]{accent-color:var(--primary)!important}
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXQGZRF9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-    <a href="#main-content" class="sr-only" style="position:absolute;top:8px;left:8px;background:#9333EA;color:white;padding:8px 16px;border-radius:6px;z-index:9999;text-decoration:none;font-size:14px;" tabindex="1">メインコンテンツへスキップ</a>
+    <a href="#main-content" class="sr-only" style="position:absolute;top:8px;left:8px;background:#4A90E2;color:white;padding:8px 16px;border-radius:6px;z-index:9999;text-decoration:none;font-size:14px;" tabindex="1">メインコンテンツへスキップ</a>
 
     <header class="hdr" role="banner">
       <div class="wrap">
@@ -279,21 +279,13 @@ input[type="range"]{accent-color:var(--primary)!important}
         </div>
       </div>
     </section>
-<!-- r21-breadcrumb -->
-<nav aria-label="パンくずリスト" style="background:#f8fafc;border-bottom:1px solid #e2e8f0;padding:5px 16px;font-size:.78rem;color:#6b7280;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">
-  <a href="/" style="color:#4f46e5;text-decoration:none">ホーム</a>
-  <span style="margin:0 .35rem;color:#9ca3af">›</span>
-  <span style="color:#374151">朝ルーティン最適化ツール【無料】自動作成ツール</span>
-</nav>
-
-
     <main id="main-content" class="container" role="main" aria-label="朝ルーティン最適化ツールのメインコンテンツ">
 <nav aria-label="パンくずリスト" style="background:#f8fafc;border-bottom:1px solid #e2e8f0;padding:6px 0;">
   <div class="container mx-auto px-4">
     <ol style="display:flex;flex-wrap:wrap;align-items:center;gap:4px;font-size:0.8rem;color:#6b7280;list-style:none;margin:0;padding:0;">
-      <li><a href="https://appadaycreator.com/" style="color:#4b5563;text-decoration:none;" onmouseover="this.style.color='#2563eb'" onmouseout="this.style.color='#4b5563'">ホーム</a></li>
+      <li><a href="https://appadaycreator.com/" style="color:#4b5563;text-decoration:none;" onmouseover="this.style.color='#4A90E2'" onmouseout="this.style.color='#4b5563'">ホーム</a></li>
       <li style="color:#9ca3af;">›</li>
-      <li><a href="https://appadaycreator.com/category/productivity/" style="color:#4b5563;text-decoration:none;" onmouseover="this.style.color='#2563eb'" onmouseout="this.style.color='#4b5563'">生産性・日常</a></li>
+      <li><a href="https://appadaycreator.com/category/productivity/" style="color:#4b5563;text-decoration:none;" onmouseover="this.style.color='#4A90E2'" onmouseout="this.style.color='#4b5563'">生産性・日常</a></li>
       <li style="color:#9ca3af;">›</li>
       <li style="color:#1f2937;">朝ルーティン最適化ツール自動作成ツール</li>
     </ol>
@@ -313,21 +305,21 @@ input[type="range"]{accent-color:var(--primary)!important}
           <div class="section-label" style="margin-bottom:8px;">⏰ よく使うパターン</div>
           <div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px;justify-content:stretch;">
             <!-- V5: モバイル最適化（タップ領域拡大・ビジュアル強化） -->
-            <button onclick="applyPreset('early')" style="background:#ede9fe;color:#4c1d95;border:2px solid #c4b5fd;padding:12px 14px;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;min-height:50px;flex:1;min-width:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(139,92,246,0.15);line-height:1.4;" onmouseover="this.style.background='#ddd6fe';this.style.boxShadow='0 4px 12px rgba(139,92,246,0.3)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#ede9fe';this.style.boxShadow='0 2px 6px rgba(139,92,246,0.15)';this.style.transform='translateY(0)'">🌅 早起き<br/>(5:30-8:00)</button>
-            <button onclick="applyPreset('normal')" style="background:#ede9fe;color:#4c1d95;border:2px solid #c4b5fd;padding:12px 14px;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;min-height:50px;flex:1;min-width:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(139,92,246,0.15);line-height:1.4;" onmouseover="this.style.background='#ddd6fe';this.style.boxShadow='0 4px 12px rgba(139,92,246,0.3)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#ede9fe';this.style.boxShadow='0 2px 6px rgba(139,92,246,0.15)';this.style.transform='translateY(0)'">⭐ 通常<br/>(6:30-8:30)</button>
-            <button onclick="applyPreset('late')" style="background:#ede9fe;color:#4c1d95;border:2px solid #c4b5fd;padding:12px 14px;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;min-height:50px;flex:1;min-width:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(139,92,246,0.15);line-height:1.4;" onmouseover="this.style.background='#ddd6fe';this.style.boxShadow='0 4px 12px rgba(139,92,246,0.3)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#ede9fe';this.style.boxShadow='0 2px 6px rgba(139,92,246,0.15)';this.style.transform='translateY(0)'">🌤️ 遅起き<br/>(7:30-9:00)</button>
+            <button onclick="applyPreset('early')" style="background:#eaf4ff;color:#1f4e79;border:2px solid #bcd9f5;padding:12px 14px;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;min-height:50px;flex:1;min-width:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(74,144,226,0.15);line-height:1.4;" onmouseover="this.style.background='#d3e7fb';this.style.boxShadow='0 4px 12px rgba(74,144,226,0.3)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#eaf4ff';this.style.boxShadow='0 2px 6px rgba(74,144,226,0.15)';this.style.transform='translateY(0)'">🌅 早起き<br/>(5:30-8:00)</button>
+            <button onclick="applyPreset('normal')" style="background:#eaf4ff;color:#1f4e79;border:2px solid #bcd9f5;padding:12px 14px;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;min-height:50px;flex:1;min-width:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(74,144,226,0.15);line-height:1.4;" onmouseover="this.style.background='#d3e7fb';this.style.boxShadow='0 4px 12px rgba(74,144,226,0.3)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#eaf4ff';this.style.boxShadow='0 2px 6px rgba(74,144,226,0.15)';this.style.transform='translateY(0)'">⭐ 通常<br/>(6:30-8:30)</button>
+            <button onclick="applyPreset('late')" style="background:#eaf4ff;color:#1f4e79;border:2px solid #bcd9f5;padding:12px 14px;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;min-height:50px;flex:1;min-width:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(74,144,226,0.15);line-height:1.4;" onmouseover="this.style.background='#d3e7fb';this.style.boxShadow='0 4px 12px rgba(74,144,226,0.3)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#eaf4ff';this.style.boxShadow='0 2px 6px rgba(74,144,226,0.15)';this.style.transform='translateY(0)'">🌤️ 遅起き<br/>(7:30-9:00)</button>
           </div>
-          <button onclick="compareAllPresets()" title="早起き・通常・遅起きの3パターンを一度に計算して比較表を表示します" style="background:linear-gradient(135deg,#7c3aed,#9333EA);color:white;border:none;padding:11px 14px;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer;width:100%;margin-bottom:8px;min-height:44px;box-shadow:0 3px 10px rgba(147,51,234,.4);letter-spacing:.02em;transition:opacity .2s,transform .1s;">📊 3パターン一括シミュレーション比較</button>
+          <button onclick="compareAllPresets()" title="早起き・通常・遅起きの3パターンを一度に計算して比較表を表示します" style="background:linear-gradient(135deg,#357abd,#4A90E2);color:white;border:none;padding:11px 14px;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer;width:100%;margin-bottom:8px;min-height:44px;box-shadow:0 3px 10px rgba(74,144,226,.4);letter-spacing:.02em;transition:opacity .2s,transform .1s;">📊 3パターン一括シミュレーション比較</button>
 
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
             <div>
               <label style="font-size:13px;color:#555;display:block;margin-bottom:4px;font-weight:600;">起床時刻 <span style="color:#dc2626;">*</span> <span class="tip-wrap"><span class="tip-icon" tabindex="0" role="img" aria-label="ヘルプ">?</span><span class="tip-popup">毎日起きる目標時刻を入力。例：06:30。早起きほど朝活の時間が増えます。</span></span></label>
-              <input type="time" id="wake-time" value="06:30" placeholder="06:30" aria-label="起床時刻（例：06:30）" title="毎日起きる目標時刻（例：06:30）" aria-required="true" aria-describedby="wake-time-error" style="width:100%;padding:10px 12px;border:2px solid #9333EA;border-radius:8px;font-size:16px;background:#fff;color:#1f2937;box-shadow:0 1px 4px rgba(0,0,0,.1);" required>
+              <input type="time" id="wake-time" value="06:30" placeholder="06:30" aria-label="起床時刻（例：06:30）" title="毎日起きる目標時刻（例：06:30）" aria-required="true" aria-describedby="wake-time-error" style="width:100%;padding:10px 12px;border:2px solid #4A90E2;border-radius:8px;font-size:16px;background:#fff;color:#1f2937;box-shadow:0 1px 4px rgba(0,0,0,.1);" required>
               <div id="wake-time-error" role="alert" style="color:#dc2626;font-size:12px;margin-top:4px;display:none;"></div>
             </div>
             <div>
               <label style="font-size:13px;color:#555;display:block;margin-bottom:4px;font-weight:600;">出発時刻 <span style="color:#dc2626;">*</span> <span class="tip-wrap"><span class="tip-icon" tabindex="0" role="img" aria-label="ヘルプ">?</span><span class="tip-popup">職場・学校など外出する時刻。起床〜出発の間が朝ルーティンに使える時間です。</span></span></label>
-              <input type="time" id="leave-time" value="08:00" placeholder="08:00" aria-label="出発時刻（例：08:00）" title="外出する時刻（例：08:00）" aria-required="true" aria-describedby="leave-time-error" style="width:100%;padding:10px 12px;border:2px solid #9333EA;border-radius:8px;font-size:16px;background:#fff;color:#1f2937;box-shadow:0 1px 4px rgba(0,0,0,.1);" required>
+              <input type="time" id="leave-time" value="08:00" placeholder="08:00" aria-label="出発時刻（例：08:00）" title="外出する時刻（例：08:00）" aria-required="true" aria-describedby="leave-time-error" style="width:100%;padding:10px 12px;border:2px solid #4A90E2;border-radius:8px;font-size:16px;background:#fff;color:#1f2937;box-shadow:0 1px 4px rgba(0,0,0,.1);" required>
               <div id="leave-time-error" role="alert" style="color:#dc2626;font-size:12px;margin-top:4px;display:none;"></div>
             </div>
           </div>
@@ -369,7 +361,7 @@ input[type="range"]{accent-color:var(--primary)!important}
           </div>
 
           <!-- V3: CTA強化（グラデーション・シャドウ・アニメーション） -->
-          <button class="btn" style="margin-top:20px;background:linear-gradient(135deg,#7c3aed,#9333EA);box-shadow:0 4px 16px rgba(147,51,234,0.4);font-size:17px;letter-spacing:.02em;position:relative;overflow:hidden;transition:all .3s;" onmouseover="this.style.boxShadow='0 8px 24px rgba(147,51,234,0.6)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 4px 16px rgba(147,51,234,0.4)';this.style.transform='translateY(0)'" onclick="calculate()">
+          <button class="btn" style="margin-top:20px;background:linear-gradient(135deg,#FFB84D,#FF9F1A);box-shadow:0 8px 18px rgba(255,159,26,.38);font-size:17px;font-weight:800;letter-spacing:.02em;position:relative;overflow:hidden;transition:all .3s;" onmouseover="this.style.boxShadow='0 12px 24px rgba(255,159,26,.5)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 8px 18px rgba(255,159,26,.38)';this.style.transform='translateY(0)'" onclick="calculate()">
             ✨ タイムテーブルを生成する
           </button>
         </div>
@@ -381,19 +373,19 @@ input[type="range"]{accent-color:var(--primary)!important}
               <div id="score-gauge" style="margin-bottom:16px;text-align:center;">
                 <div style="font-size:12px;font-weight:600;color:#666;margin-bottom:4px;">📈 ルーティン評価スコア</div>
                 <div style="width:100%;height:24px;background:#e5e7eb;border-radius:12px;overflow:hidden;margin-bottom:8px;">
-                  <div id="score-bar" style="height:100%;background:#9333EA;width:0%;transition:width .3s ease;border-radius:12px;"></div>
+                  <div id="score-bar" style="height:100%;background:#4A90E2;width:0%;transition:width .3s ease;border-radius:12px;"></div>
                 </div>
-                <p id="score-text" style="color:#9333EA;font-size:13px;font-weight:600;margin:0;"></p>
+                <p id="score-text" style="color:#4A90E2;font-size:13px;font-weight:600;margin:0;"></p>
               </div>
-              <div id="output" style="font-size:2.2rem;font-weight:700;color:#9333EA;padding:12px 0;"></div>
+              <div id="output" style="font-size:2.2rem;font-weight:700;color:#4A90E2;padding:12px 0;"></div>
               <p id="detail" style="color:#666;font-size:14px;margin-top:4px;"></p>
               <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:12px;">
-                <button onclick="copyResult()" style="background:#9333EA;color:white;border:none;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s;min-height:40px;">📋 テキストコピー</button>
-                <button onclick="shareUrl()" style="background:#9333EA;color:white;border:none;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s;min-height:40px;">🔗 URLシェア</button>
-                <button onclick="printResult()" style="background:#9333EA;color:white;border:none;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s;min-height:40px;">🖨️ 印刷</button>
-                <button onclick="downloadCSV()" style="background:#9333EA;color:white;border:none;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s;min-height:40px;">📥 CSV保存</button>
-                <button onclick="toggleComparison()" style="background:#7c3aed;color:white;border:none;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s;min-height:40px;">📊 パターン比較</button>
-                <button onclick="compareAllPresets()" style="background:#5b21b6;color:white;border:none;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s;min-height:40px;">⚡ もし〜だったら？</button>
+                <button onclick="copyResult()" style="background:#4A90E2;color:white;border:none;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s;min-height:40px;">📋 テキストコピー</button>
+                <button onclick="shareUrl()" style="background:#4A90E2;color:white;border:none;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s;min-height:40px;">🔗 URLシェア</button>
+                <button onclick="printResult()" style="background:#4A90E2;color:white;border:none;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s;min-height:40px;">🖨️ 印刷</button>
+                <button onclick="downloadCSV()" style="background:#4A90E2;color:white;border:none;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s;min-height:40px;">📥 CSV保存</button>
+                <button onclick="toggleComparison()" style="background:#357abd;color:white;border:none;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s;min-height:40px;">📊 パターン比較</button>
+                <button onclick="compareAllPresets()" style="background:#2c6399;color:white;border:none;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s;min-height:40px;">⚡ もし〜だったら？</button>
               </div>
             </div>
             <div id="chart-wrap" style="margin-top:16px;display:none;">
@@ -487,7 +479,7 @@ input[type="range"]{accent-color:var(--primary)!important}
 
         <!-- 関連サービス [V1: CTA強化・メリット説明・アイコン装飾] -->
         <div class="card" style="margin-top:8px;background:linear-gradient(135deg,#f8fafc,#f0f7ff);">
-            <h3 style="font-size:15px;font-weight:700;color:#1e293b;margin-bottom:14px;border-left:4px solid #7c3aed;padding-left:10px;">🔗 朝活をもっと効果的に（次のステップ）</h3>
+            <h3 style="font-size:15px;font-weight:700;color:#1e293b;margin-bottom:14px;border-left:4px solid #357abd;padding-left:10px;">🔗 朝活をもっと効果的に（次のステップ）</h3>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
               <!-- TaskFlow Timer [V1: CTA強化・メリット追加] -->
               <div style="background:white;border-radius:12px;border:2px solid #dbeafe;padding:16px;box-shadow:0 2px 8px rgba(0,0,0,0.06);transition:all .2s;cursor:pointer;" onmouseover="this.style.borderColor='#60a5fa';this.style.boxShadow='0 6px 16px rgba(59,130,246,0.25)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#dbeafe';this.style.boxShadow='0 2px 8px rgba(0,0,0,0.06)';this.style.transform='translateY(0)'">
@@ -514,7 +506,7 @@ input[type="range"]{accent-color:var(--primary)!important}
                 </a>
               </div>
             </div>
-            <div style="background:#eef2ff;border-left:4px solid #7c3aed;padding:12px 14px;margin-top:14px;border-radius:0 6px 6px 0;font-size:13px;color:#3730a3;">
+            <div style="background:#f0f7ff;border-left:4px solid #357abd;padding:12px 14px;margin-top:14px;border-radius:0 6px 6px 0;font-size:13px;color:#1f4e79;">
               <strong>🎯 3ステップ活用法：</strong> 朝ルーティン設計 → TaskFlow Timerで実測 → 睡眠診断で根本改善
             </div>
         </div>
@@ -580,7 +572,7 @@ input[type="range"]{accent-color:var(--primary)!important}
 </div>
 <!-- r21-editorial -->
 <div style="background:#fff;border:1px solid #e5e7eb;border-radius:.75rem;padding:1.5rem;margin:1.5rem 0">
-  <h2 style="font-size:1.05rem;font-weight:800;color:#1a1a2e;margin:0 0 1rem;border-left:4px solid #4f46e5;padding-left:.75rem">朝活の科学的根拠と実践法</h2>
+  <h2 style="font-size:1.05rem;font-weight:800;color:#1a1a2e;margin:0 0 1rem;border-left:4px solid #357abd;padding-left:.75rem">朝活の科学的根拠と実践法</h2>
   <p style="color:#374151;line-height:1.8;margin:0 0 .75rem">脳科学の観点では、起床後2〜3時間は前頭前野（集中力・判断力）が最も活性化するゴールデンタイムとされています。この時間帯にコルチゾール（覚醒ホルモン）の分泌がピークを迎え、論理的思考・創造的作業に適した状態になります。</p>
 <ul style="color:#374151;line-height:2;margin:0;padding-left:1.25rem">
   <li><strong>朝活に向いているタスク</strong>：資格勉強・読書・創作活動・深い思考を要する仕事</li>
@@ -630,10 +622,10 @@ input[type="range"]{accent-color:var(--primary)!important}
 <!-- r20-tool-links -->
 <div id="tool-disclaimer" style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:1.25rem 1.5rem;margin:1.5rem 0;font-size:.875rem">
   <p style="font-weight:700;color:#374151;margin:0 0 .5rem">⚠️ 計算結果の活用にあたって</p>
-  <ul style="margin:0;padding-left:1.25rem;color:#4b5563;line-height:1.9"><li><a href="https://www.caa.go.jp/" target="_blank" rel="noopener noreferrer" style="color:#4f46e5;font-size:.85rem">消費者庁「くらしの安心ガイド」</a></li></ul>
+  <ul style="margin:0;padding-left:1.25rem;color:#4b5563;line-height:1.9"><li><a href="https://www.caa.go.jp/" target="_blank" rel="noopener noreferrer" style="color:#357abd;font-size:.85rem">消費者庁「くらしの安心ガイド」</a></li></ul>
 <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:16px 18px;margin:20px 0" id="related-blog">
   <p style="font-weight:800;font-size:.9rem;color:#1e293b;margin:0 0 10px">📚 関連コラム</p>
-  <ul style="margin:0;padding-left:0;list-style:none"><li style="margin:0 0 6px"><a href="/blog/household-budget-guide/" style="color:#4f46e5;font-size:.88rem;text-decoration:none;">📖 家計管理の基本ガイド</a></li><li style="margin:0 0 6px"><a href="/blog/rogo-2000man-guide/" style="color:#4f46e5;font-size:.88rem;text-decoration:none;">📖 老後2,000万円問題の解決策</a></li></ul>
+  <ul style="margin:0;padding-left:0;list-style:none"><li style="margin:0 0 6px"><a href="/blog/household-budget-guide/" style="color:#357abd;font-size:.88rem;text-decoration:none;">📖 家計管理の基本ガイド</a></li><li style="margin:0 0 6px"><a href="/blog/rogo-2000man-guide/" style="color:#357abd;font-size:.88rem;text-decoration:none;">📖 老後2,000万円問題の解決策</a></li></ul>
 </div>
 </div>
 
@@ -652,7 +644,7 @@ input[type="range"]{accent-color:var(--primary)!important}
       <p style="color:#4b5563;margin:0 0 .25rem;font-size:.84rem">➡ 資格試験まで3ヶ月・毎朝勉強を計画</p>
       <p style="color:#15803d;margin:0;font-size:.84rem;font-weight:600">✅ 5時起き・勉強90分のルーティンを段階的（15分ずつ前倒し）に設計</p>
     </div></div>
-<h2 id="faq-h" style="font-size:1.05rem;font-weight:700;margin-bottom:12px;border-left:4px solid #4f46e5;padding-left:10px;">よくある質問</h2>
+<h2 id="faq-h" style="font-size:1.05rem;font-weight:700;margin-bottom:12px;border-left:4px solid #357abd;padding-left:10px;">よくある質問</h2>
   <dl style="line-height:1.8;">
     <dt style="font-weight:600;margin-top:12px;">Q: 朝活が効果的な理由は何ですか？</dt>
     <dd style="margin-left:16px;color:#374151;">脳科学的には起床後2〜3時間が最も集中力が高いとされています（コルチゾール分泌のピーク）。また朝は外部からの割り込みが少なく、静かな環境での集中作業に適しています。米国の成功者の多くが早起きを習慣にしていることも知られています。</dd>
@@ -677,7 +669,7 @@ input[type="range"]{accent-color:var(--primary)!important}
 
     
 <script>
-    const BTN_COLOR = '#9333EA';
+    const BTN_COLOR = '#4A90E2';
     const PRESETS = {
       early:  { wake: '05:30', leave: '08:00' },
       normal: { wake: '06:30', leave: '08:30' },
@@ -1064,11 +1056,11 @@ input[type="range"]{accent-color:var(--primary)!important}
           <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px;">
             <div style="background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;text-align:center;">
               <div style="font-size:11px;color:#666;margin-bottom:4px;">生成数</div>
-              <div style="font-size:20px;font-weight:700;color:#9333EA;">${comparisonData.length}</div>
+              <div style="font-size:20px;font-weight:700;color:#4A90E2;">${comparisonData.length}</div>
             </div>
             <div style="background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;text-align:center;">
               <div style="font-size:11px;color:#666;margin-bottom:4px;">平均タスク時間</div>
-              <div style="font-size:20px;font-weight:700;color:#9333EA;">${stats.avgTaskMin}分</div>
+              <div style="font-size:20px;font-weight:700;color:#4A90E2;">${stats.avgTaskMin}分</div>
             </div>
             <div style="background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;text-align:center;">
               <div style="font-size:11px;color:#666;margin-bottom:4px;">平均余裕時間</div>
@@ -1096,7 +1088,7 @@ input[type="range"]{accent-color:var(--primary)!important}
                   <td style="padding:8px;font-weight:600;">🌅 ${d.wakeVal} → 🚀 ${d.leaveVal}</td>
                   <td style="padding:8px;text-align:center;font-weight:600;">${d.usedMin}分</td>
                   <td style="padding:8px;text-align:center;font-weight:600;color:#16a34a;">${d.freeMin}分</td>
-                  <td style="padding:8px;color:#9333EA;font-weight:600;font-size:11px;">${d.scoreText}</td>
+                  <td style="padding:8px;color:#4A90E2;font-weight:600;font-size:11px;">${d.scoreText}</td>
                 </tr>
               `).join('')}
             </tbody>
@@ -1229,7 +1221,7 @@ input[type="range"]{accent-color:var(--primary)!important}
         if (freeMin < 0) { scoreText = '⚠️ 時間不足'; scoreColor = '#dc2626'; }
         else if (freeMin <= 5) { scoreText = '😅 かなりタイト'; scoreColor = '#ea580c'; }
         else if (freeMin <= 15) { scoreText = '👍 無理なし'; scoreColor = '#16a34a'; }
-        else { scoreText = '😌 余裕あり'; scoreColor = '#7c3aed'; }
+        else { scoreText = '😌 余裕あり'; scoreColor = '#357abd'; }
         return { key: p.key, label: p.label, wake: p.wake, leave: p.leave, totalMin: totalMin, usedMin: usedMin, freeMin: Math.max(0, freeMin), scoreText: scoreText, scoreColor: scoreColor };
       });
       var cards = results.map(function(r) {
@@ -1312,14 +1304,14 @@ input[type="range"]{accent-color:var(--primary)!important}
 
     <!-- r31-use-cases -->
 <div style="margin:1.5rem auto;max-width:760px;padding:0 1rem">
-<h2 style="font-size:1.125rem;font-weight:700;margin:0 0 1rem;color:#1e293b;border-left:4px solid #4f46e5;padding-left:10px">こんな方・シーンで役立ちます</h2>
+<h2 style="font-size:1.125rem;font-weight:700;margin:0 0 1rem;color:#1e293b;border-left:4px solid #357abd;padding-left:10px">こんな方・シーンで役立ちます</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.75rem">
 </div>
 </div>
 <!-- r31-extended-faq -->
 <div style="margin:1.5rem auto;max-width:760px;padding:0 1rem">
 <div style="background:white;border-radius:16px;padding:1.5rem;box-shadow:0 4px 20px rgba(0,0,0,.08)">
-<h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;border-left:4px solid #4f46e5;padding-left:10px;color:#1e293b">よくある質問（詳細）</h2>
+<h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;border-left:4px solid #357abd;padding-left:10px;color:#1e293b">よくある質問（詳細）</h2>
 <div style="margin-top:12px;display:flex;flex-direction:column;gap:12px">
 <div style="border:1px solid #e2e8f0;border-radius:10px;padding:12px 14px"><p style="font-weight:600;color:#1e293b;margin:0 0 6px">Q. 効果的な朝のルーティンを作るための手順は？</p><p style="font-size:.875rem;color:#475569;line-height:1.8;margin:0">効果的な朝のルーティンを作るポイントとして「前日夜に翌朝の準備をする（服・荷物・朝食の材料）」「起床時間を一定にする（休日も±1時間以内）」「最初の30分は何をするか決めておく（スマートフォンを見ない・水を飲む・軽い運動等）」「やりたいことリストから朝に向いているもの（読書・学習・運動）を選ぶ」があります。最初から完璧なルーティンを作ろうとせず、1〜2個の習慣から始めて徐々に追加することが継続のコツです。「絶対やること」と「できればやること」を分けて考えると柔軟に対応できます。</p></div>
 <div style="border:1px solid #e2e8f0;border-radius:10px;padding:12px 14px"><p style="font-weight:600;color:#1e293b;margin:0 0 6px">Q. 朝型と夜型、生活リズムを変えることはできますか？</p><p style="font-size:.875rem;color:#475569;line-height:1.8;margin:0">人の睡眠リズム（クロノタイプ）は遺伝的な要素も強く、「完全に変える」のは難しいとされていますが、「少しずつずらす」ことは可能です。朝型にシフトする方法として「就寝時間を15〜30分ずつ早める（急な変更は逆効果）」「朝起きたら太陽光を浴びる（体内時計のリセット）」「夜のブルーライト（スマートフォン・PC）を就寝2時間前から控える」「夜食の習慣を減らす」があります。ただし夜型の人が無理に朝型にしようとするとパフォーマンスが下がる場合もあるため、自分の生活スタイルに合ったリズムを見つけることも大切です。</p></div>
@@ -1343,10 +1335,10 @@ input[type="range"]{accent-color:var(--primary)!important}
 <div style="padding:1.25rem 1.5rem;background:#f8fafc;border:1px solid #e2e8f0;border-radius:.75rem">
 <h3 style="font-size:1rem;font-weight:700;margin:0 0 .75rem;color:#1e293b">📚 関連する公的情報・参考リンク</h3>
 <ul style="margin:0;padding-left:1.25rem;font-size:.88rem;color:#374151;line-height:1.9">
-<li style='margin-bottom:.5rem'><a href="https://www.gov-online.go.jp/" target="_blank" rel="noopener noreferrer" style="color:#4f46e5">政府広報オンライン</a> — くらしに役立つ最新の政策・制度・行政情報</li>
-<li style='margin-bottom:.5rem'><a href="https://www.e-gov.go.jp/" target="_blank" rel="noopener noreferrer" style="color:#4f46e5">e-Gov 電子政府の総合窓口</a> — 法令・行政手続・公的制度の詳細情報</li>
-<li style='margin-bottom:.5rem'><a href="https://www.cao.go.jp/consumer/" target="_blank" rel="noopener noreferrer" style="color:#4f46e5">消費者庁</a> — 消費者の権利・安全・表示に関する公的情報</li>
-<li style='margin-bottom:.5rem'><a href="https://www.nhk.or.jp/life/" target="_blank" rel="noopener noreferrer" style="color:#4f46e5">NHK くらし解説</a> — 暮らしのさまざまな疑問をわかりやすく解説</li>
+<li style='margin-bottom:.5rem'><a href="https://www.gov-online.go.jp/" target="_blank" rel="noopener noreferrer" style="color:#357abd">政府広報オンライン</a> — くらしに役立つ最新の政策・制度・行政情報</li>
+<li style='margin-bottom:.5rem'><a href="https://www.e-gov.go.jp/" target="_blank" rel="noopener noreferrer" style="color:#357abd">e-Gov 電子政府の総合窓口</a> — 法令・行政手続・公的制度の詳細情報</li>
+<li style='margin-bottom:.5rem'><a href="https://www.cao.go.jp/consumer/" target="_blank" rel="noopener noreferrer" style="color:#357abd">消費者庁</a> — 消費者の権利・安全・表示に関する公的情報</li>
+<li style='margin-bottom:.5rem'><a href="https://www.nhk.or.jp/life/" target="_blank" rel="noopener noreferrer" style="color:#357abd">NHK くらし解説</a> — 暮らしのさまざまな疑問をわかりやすく解説</li>
 </ul>
 </div>
 </div>
@@ -1379,25 +1371,25 @@ input[type="range"]{accent-color:var(--primary)!important}
         | <a href="contact.html" style="color:white;">お問い合わせ</a></p>
         <p style="margin-top:4px;font-size:11px;opacity:0.6;">最終更新: 2026年5月 | 本サービスはアフィリエイト広告を掲載しています（A8.net/Amazon）</p>
         <p style="margin-top:6px;">© 2026 AppADayCreator. All services are free.</p>
-    <div style="background:linear-gradient(135deg,#1e3a5f,#2563eb);padding:16px 12px;text-align:center;margin-top:12px;">
+    <div style="background:linear-gradient(135deg,#1e3a5f,#4A90E2);padding:16px 12px;text-align:center;margin-top:12px;">
   <p style="color:#e0e7ff;font-size:12px;font-weight:600;margin:0 0 4px;">運営：AppADayCreator / Tech&amp;Brace</p>
   <p style="color:#cbd5e1;font-size:11px;margin:0 0 10px;">マネー・健康・育児・キャリアなど日常に役立つ無料Webサービスを提供。IT・業務効率化のご相談はこちら。</p>
   <a href="https://tech-and-brace.com/ai-automation?utm_source=appadaycreator&utm_medium=footer&utm_campaign=b2b_cta" target="_blank" rel="noopener" onclick="if(typeof gtag==='function'){gtag('event','b2b_cta_click',{source_page:window.location.pathname,cta_position:'footer',tool_category:document.querySelector('[aria-label=\"パンくずリスト\"] li:nth-child(3) a')?document.querySelector('[aria-label=\"パンくずリスト\"] li:nth-child(3) a').innerText:'general',destination:'https://tech-and-brace.com/ai-automation'})}" style="display:inline-block;background:#fff;color:#1e3a5f;font-size:11px;font-weight:700;padding:6px 16px;border-radius:20px;text-decoration:none;">法人・B2B相談はこちら →</a>
 </div>
 </footer>
-<div style="text-align:center;padding:10px 16px 14px;background:#eef2ff;border-top:2px solid #c7d2fe;margin-top:8px">
-<a href="/blog/" style="color:#4f46e5;font-size:.85rem;font-weight:700">📖 マネー・育児・キャリアのコラムを読む →</a>
+<div style="text-align:center;padding:10px 16px 14px;background:#f0f7ff;border-top:2px solid #c7d2fe;margin-top:8px">
+<a href="/blog/" style="color:#357abd;font-size:.85rem;font-weight:700">📖 マネー・育児・キャリアのコラムを読む →</a>
 </div>
-<div style="background:#eef2ff;border-left:4px solid #4f46e5;border-radius:.5rem;padding:1rem 1.25rem;margin:1.5rem auto;max-width:760px;font-size:.875rem">
-<p style="margin:0 0 .5rem;font-weight:700;color:#3730a3">📖 お役立ちコラム</p>
-<ul style="margin:0;padding-left:1.25rem;color:#4f46e5;line-height:2">
-<li><a href="/blog/stock-investment-beginner/" style="color:#4f46e5">株式投資の始め方【初心者完全ガイド】</a></li>
-<li><a href="/blog/nisa-comparison/" style="color:#4f46e5">新NISA vs iDeCo 徹底比較</a></li>
-<li><a href="/blog/investment-risk-management/" style="color:#4f46e5">投資のリスク管理入門</a></li>
+<div style="background:#f0f7ff;border-left:4px solid #357abd;border-radius:.5rem;padding:1rem 1.25rem;margin:1.5rem auto;max-width:760px;font-size:.875rem">
+<p style="margin:0 0 .5rem;font-weight:700;color:#1f4e79">📖 お役立ちコラム</p>
+<ul style="margin:0;padding-left:1.25rem;color:#357abd;line-height:2">
+<li><a href="/blog/stock-investment-beginner/" style="color:#357abd">株式投資の始め方【初心者完全ガイド】</a></li>
+<li><a href="/blog/nisa-comparison/" style="color:#357abd">新NISA vs iDeCo 徹底比較</a></li>
+<li><a href="/blog/investment-risk-management/" style="color:#357abd">投資のリスク管理入門</a></li>
 </ul>
 </div>
 <!-- r17-mobile-ux -->
-<a href="#top" id="back-to-top" aria-label="ページトップへ戻る" style="display:none;position:fixed;bottom:24px;right:20px;background:#4f46e5;color:#fff;border:none;border-radius:50%;width:48px;height:48px;font-size:1.4rem;line-height:48px;text-align:center;text-decoration:none;box-shadow:0 4px 12px rgba(79,70,229,.4);z-index:9000;cursor:pointer" title="ページトップへ">↑</a>
+<a href="#top" id="back-to-top" aria-label="ページトップへ戻る" style="display:none;position:fixed;bottom:24px;right:20px;background:#357abd;color:#fff;border:none;border-radius:50%;width:48px;height:48px;font-size:1.4rem;line-height:48px;text-align:center;text-decoration:none;box-shadow:0 4px 12px rgba(79,70,229,.4);z-index:9000;cursor:pointer" title="ページトップへ">↑</a>
 <script>
 (function(){
   var btn = document.getElementById('back-to-top');
